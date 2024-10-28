@@ -4,106 +4,33 @@
 Este organizador de tareas es una aplicación web de una sola página (SPA) desarrollada con React, diseñada para ayudar a los usuarios a gestionar sus tareas de manera eficiente. La aplicación ofrece una interfaz intuitiva y personalizable, permitiendo a los usuarios crear, eliminar y organizar sus tareas de manera efectiva.
 
 ## Características Clave
-
-Gestión de tareas: Crear, editar, eliminar y marcar tareas como completadas.
-Búsqueda avanzada: Filtrar tareas por título, descripción o estado.
-Diseño responsivo: Experiencia de usuario óptima en diferentes dispositivos.
-
-Creación de tareas: Permite agregar nuevas tareas con descripciones detalladas.
-Marcar como completadas: Las tareas completadas se pueden marcar para un seguimiento visual.
-Búsqueda: Permite buscar tareas por palabras clave.
-Diseño responsivo: Se adapta a diferentes tamaños de pantalla.
+- Gestión de tareas: Crear, editar, eliminar y marcar tareas como completadas.
+- Búsqueda avanzada: Filtrar tareas por título, descripción o estado.
+- Diseño responsivo: Experiencia de usuario óptima en diferentes dispositivos.
+- Creación de tareas: Permite agregar nuevas tareas con descripciones detalladas.
+- Marcar como completadas: Las tareas completadas se pueden marcar para un seguimiento visual.
+- Búsqueda: Permite buscar tareas por palabras clave.
+- Diseño responsivo: Se adapta a diferentes tamaños de pantalla.
 
 ## Tecnologías Utilizadas
-React: Biblioteca JavaScript para construir interfaces de usuario.
-CSS: Para el estilo y diseño de la interfaz.
 
-React: Biblioteca JavaScript para construir interfaces de usuario.
-CSS: Para el estilo y diseño de la interfaz.
-React Context: Para gestionar el estado global de la aplicación, como el tema actual y la lista de tareas.
-useLocalStorage: Hook personalizado para persistir los datos de las tareas en el almacenamiento local del navegador.
-useState, useEffect: Hooks básicos de React para gestionar el estado local de los componentes y realizar efectos secundarios.
-
-## Estructura del Proyecto
-
-organizador-de-tareas/
-├── src/
-│   ├── App/
-│   │   ├── AppUI.js
-│   │   ├── index.js
-│   │   └── ...
-│   ├── CreateTodoButton/
-│   │   ├── CreateTodoButton.css
-│   │   ├── index.js
-│   │   └── ...
-│   ├── EmptyTodos/
-│   │   ├── index.js
-│   │   └── ...
-│   ├── Modal/
-│   │   ├── Modal.css
-│   │   ├── index.js
-│   │   └── ...
-│   ├── TodoContext/
-│   │   ├── todoContext.css
-│   │   ├── index.js
-│   │   └── ...
-│   ├── TodoCounter/
-│   │   ├── todoCounter.css
-│   │   ├── index.js
-│   │   └── ...
-│   ├── TodoForm/
-│   │   ├── TodoForm.css
-│   │   ├── index.js
-│   │   └── ...
-│   ├── TodoIcon/
-│   │   ├── check.svg
-│   │   ├── CompleteIcon.js
-│   │   ├── delete.svg
-│   │   ├── DeleteIcon.js
-│   │   ├── index.js
-│   │   ├── TodoIcon.css
-│   │   └── ...
-│   ├── TodoItem/
-│   │   ├── TodoItem.css
-│   │   ├── index.js
-│   │   └── ...
-│   ├── TodoList/
-│   │   ├── TodoList.css
-│   │   ├── index.js
-│   │   └── ...
-│   ├── TodoSearch/
-│   │   ├── TodoSearch.css
-│   │   ├── index.js
-│   │   └── ...
-│   ├── TodoError/
-│   │   ├── index.js
-│   │   └── ...
-│   ├── TodosLoading/
-│   │   ├── TodosLoading.css
-│   │   └── index.js
-│   ├── index.js
-│   ├── index.css
-│   └── ...
-├── package.json
-└── README.md
+- React: Biblioteca JavaScript para construir interfaces de usuario.
+- CSS: Para el estilo y diseño de la interfaz.
+- React Context: Para gestionar el estado global de la aplicación, como el tema actual y la lista de tareas.
+- useLocalStorage: Hook personalizado para persistir los datos de las tareas en el almacenamiento local del navegador.
+- useState, useEffect: Hooks básicos de React para gestionar el estado local de los componentes y realizar efectos secundarios.
 
 ## Decisiones de Diseño
-React Context: Utilizamos React Context para crear un contexto global de tareas, permitiendo que cualquier componente de la aplicación acceda y modifique la lista de tareas.
-
-useLocalStorage: Creamos un hook personalizado useLocalStorage para persistir los datos de las tareas en el almacenamiento local del navegador, asegurando que los datos se mantengan incluso si el usuario recarga la página.
-
-useState y useEffect: Utilizamos useState para gestionar el estado local de los componentes y useEffect para realizar efectos secundarios, como suscribirse a cambios en el estado y realizar operaciones asíncronas.
-
-Componentes funcionales: Optamos por componentes funcionales con hooks para una mejor gestión del estado y rendimiento.
+- React Context: Utilizamos React Context para crear un contexto global de tareas, permitiendo que cualquier componente de la aplicación acceda y modifique la lista de tareas.
+- useLocalStorage: Creamos un hook personalizado useLocalStorage para persistir los datos de las tareas en el almacenamiento local del navegador, asegurando que los datos se mantengan incluso si el usuario recarga la página.
+- useState y useEffect: Utilizamos useState para gestionar el estado local de los componentes y useEffect para realizar efectos secundarios, como suscribirse a cambios en el estado y realizar operaciones asíncronas.
+- Componentes funcionales: Optamos por componentes funcionales con hooks para una mejor gestión del estado y rendimiento.
 
 ## Beneficios de este enfoque
-Escalabilidad: La estructura basada en componentes y el uso de Context facilitan la escalabilidad de la aplicación.
-
-Reutilización de código: Los componentes pueden reutilizarse en diferentes partes de la aplicación.
-
-Mantenimiento: El código es más fácil de mantener y depurar gracias a su modularidad.
-
-Experiencia de usuario: La persistencia de los datos en el almacenamiento local mejora la experiencia del usuario
+- Escalabilidad: La estructura basada en componentes y el uso de Context facilitan la escalabilidad de la aplicación.
+- Reutilización de código: Los componentes pueden reutilizarse en diferentes partes de la aplicación.
+- Mantenimiento: El código es más fácil de mantener y depurar gracias a su modularidad.
+- Experiencia de usuario: La persistencia de los datos en el almacenamiento local mejora la experiencia del usuario
 
 ## Cómo Ejecutar el Proyecto
 
