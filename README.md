@@ -2,6 +2,7 @@
 
 ## Descripción
 Este organizador de tareas es una aplicación web de una sola página (SPA) desarrollada con React, diseñada para ayudar a los usuarios a gestionar sus tareas de manera eficiente. La aplicación ofrece una interfaz intuitiva y personalizable, permitiendo a los usuarios crear, eliminar y organizar sus tareas de manera efectiva.
+Despliegue en GitHub Pages: https://xsoto-developer.github.io/react-organizador-tareas/
 
 ## Características Clave
 - Gestión de tareas: Crear, editar, eliminar y marcar tareas como completadas.
@@ -52,15 +53,6 @@ Abre [http://localhost:3000](http://localhost:3000) para verla en tu navegador.
 
 La página se volverá a cargar cuando realices cambios.\
 También puedes ver errores de lint en la consola.
-
-### `npm run build`
-
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm run build`
 
